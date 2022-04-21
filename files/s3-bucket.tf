@@ -3,7 +3,8 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
-
+  bucket-prefix = "Glenn-Morrison"
+  
   versioning = {
     enabled = true
   }
